@@ -1,9 +1,0 @@
-streamlit
-ollama
-whisper
-torch
-TTS
-diffusers
-transformers
-opencv-python
-scipy
