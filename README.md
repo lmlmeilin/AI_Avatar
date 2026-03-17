@@ -32,3 +32,5 @@ pip install -r requirements.txt
 python inference.py --driven_audio response.wav --source_image avatar.png --result_dir results
 ```
 ### Video can be found in SadTalker > results folder
+
+### To run as app, refer to Streamlit.md
