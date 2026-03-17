@@ -7,14 +7,16 @@ https://docs.google.com/document/d/1etimxiq7JTu8011Plbg-E2a9RNP40q0kgSNv6AIMpnM/
 pip install -r requirements.txt
 ``` 
 ## Create input.wav
+```bash 
 python create_wav.py 
-
+```
 ## Create response.wav
+```bash 
 python test_run.py
-
+```
 ## Generate avatar video 
 ### Copy avatar.png and response.wav over to SadTalker directory
-
+```bash 
 cd SadTalker 
 
 conda create -n sadtalker python=3.8
@@ -28,5 +30,5 @@ conda install ffmpeg
 pip install -r requirements.txt
 
 python inference.py --driven_audio response.wav --source_image avatar.png --result_dir results
-
+```
 ### Video can be found in SadTalker > results folder
