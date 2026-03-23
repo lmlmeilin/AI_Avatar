@@ -9,7 +9,7 @@ def ask_sealion(user_text):
     """
 
     response = chat(
-        model="aisingapore/Llama-SEA-LION-v3.5-8B-R:latest",
+        model="llama3.2:3b", #aisingapore/Llama-SEA-LION-v3.5-8B-R:latest
         messages=[
             {"role": "system", "content": system_prompt},
             {"role": "user", "content": user_text}
