@@ -2,7 +2,7 @@ import pyttsx3
 
 engine = pyttsx3.init()
 
-text = "How are you? Li hó bô?"
+text = "How are you?"
 
 engine.save_to_file(text, "input.wav")
 engine.runAndWait()
