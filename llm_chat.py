@@ -3,7 +3,7 @@ from ollama import chat
 def ask_sealion(user_text):
 
     system_prompt = """
-    You are a native Hokkien speaker. Reply with one natural Hokkien sentence in Pe̍h-ōe-jī or Tailo.
+    You are a friendly chatbot. Reply queries with one sentence. 
     """
 
     response = chat(
